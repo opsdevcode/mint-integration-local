@@ -1,0 +1,53 @@
+{
+  "artifact": {
+    "digest": "sha256:23fea2cdb0376cc2172255fb4fed0620457503713fbcce68a09738152cab6c9a",
+    "identity": "local.sandbox.ensure_marker/0.1.0"
+  },
+  "capabilities": [
+    {
+      "id": "local.sandbox.ensure_marker",
+      "version": "v1alpha1"
+    }
+  ],
+  "compatibility": {
+    "adapterId": "local.sandbox.ensure_marker",
+    "adapterSchema": "mint.adapter/v0",
+    "adapterVersion": "v1alpha1",
+    "notes": "lossless plan-only mapping"
+  },
+  "configurationSchemas": [],
+  "deprecation": {
+    "deprecated": false,
+    "eligibleRemoval": "",
+    "successor": ""
+  },
+  "executionSupport": "fake",
+  "identity": "local.sandbox.ensure_marker",
+  "implementation": {
+    "executable": "mint-integration-local",
+    "runtime": "python3.12"
+  },
+  "name": "ensure_marker",
+  "namespace": "local.sandbox",
+  "permissions": [],
+  "phases": [
+    "describe",
+    "evidence",
+    "observe",
+    "plan",
+    "validate",
+    "verify"
+  ],
+  "protocolVersions": [
+    "mint.protocol/v0"
+  ],
+  "provenance": {
+    "deterministic": true
+  },
+  "schema": "mint.integration/v0",
+  "targetKinds": [
+    "local.sandbox",
+    "sandbox"
+  ],
+  "version": "0.1.0"
+}

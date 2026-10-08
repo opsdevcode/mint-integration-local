@@ -1,0 +1,10 @@
+{
+  "capability": {
+    "id": "local.sandbox.ensure_marker",
+    "version": "v1alpha1"
+  },
+  "target": {
+    "id": "fixture-alpha",
+    "kind": "local.sandbox"
+  }
+}

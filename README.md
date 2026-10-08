@@ -13,4 +13,5 @@ python scripts/run_conformance.py
 
 Pin with `mint integrations add --project DIR --local mint-integration.json`.
 `add` does not pip-install or execute this integration. Release Please owns
-prerelease tags. This package is public preview, not 1.0.
+prerelease tags. PyPI publish is OIDC only; there is no PyPI token and no
+`latest` alias. This package is public preview, not 1.0.

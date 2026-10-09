@@ -29,3 +29,5 @@ Tagged `mint-integration.json` digest
 Pin with `mint integrations add --project DIR --local mint-integration.json`.
 `add` does not pip-install or execute this integration. Release Please owns
 prerelease tags. Public preview, not 1.0.
+
+GitHub Releases are canonical (`opsdevcode.release/v0`). PyPI publication stays deferred.
